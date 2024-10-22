@@ -1,0 +1,13 @@
+p{
+    background-color: aqua;
+}
+@media screen and (width < 500px){
+    p{
+        text-align:center;
+    }
+ }
+ @media screen and (width > 500px){
+    p{
+        text-align:left;
+    }
+ }
